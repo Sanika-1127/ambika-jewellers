@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambika Jewellers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+
+<body>
+    <!-- header======================================= -->
+    <header id="header">
+        <div class="header-top-bar">
+            <span>Welcome to jewelry online store</span>
+        </div>
+        <nav class="navigation">
+            <a href="#" class="logo">
+                <img src="2-removebg-preview.png" alt="logo/">
+            </a>
+            <div class="menu-toggle" id="menu-toggle">
+  <i class="fa fa-bars"></i>
+</div>
+            <ul class="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#" onclick="myFunction()"class="dropbtn">Category</a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="gold.html" class="dropdown-link">Gold</a>
+                        <!-- <div class="sub-dropdown" id="gold-sub">
+                            <a href="gold.html" class="sub-dropdown-link">Bangles</a>
+                            <a href="gold.html?slider=gold-slider-1" class="sub-dropdown-link">Women Ring</a>
+                            <a href="gold.html?slider=gold-slider-2" class="sub-dropdown-link">Men Ring</a>
+                            <a href="gold.html?slider=gold-slider-3" class="sub-dropdown-link">Couple Ring</a>
+                            <a href="gold.html?slider=gold-slider-4" class="sub-dropdown-link">Neckles</a>
+                            <a href="gold.html?slider=gold-slider-5" class="sub-dropdown-link">Nath</a>
+                            <a href="gold.html?slider=gold-slider-6" class="sub-dropdown-link">Mini Mangalsutra</a>
+                            <a href="gold.html?slider=gold-slider-7" class="sub-dropdown-link">Long Mangalsutra</a>
+                            <a href="gold.html?slider=gold-slider-8" class="sub-dropdown-link">Earing</a>
+                            <a href="gold.html?slider=gold-slider-9" class="sub-dropdown-link">Choker</a>
+                            <a href="gold.html?slider=gold-slider-10" class="sub-dropdown-link">Saaj</a>
+                            <a href="gold.html?slider=gold-slider-11" class="sub-dropdown-link">Mohan Maal</a>
+                            <a href="gold.html?slider=gold-slider-12" class="sub-dropdown-link">Thushi</a>
+                        </div> -->
+                        
+                        <a href="silver.html" class="dropdown-link">Silver</a>
+                        <!-- <div class="sub-dropdown" id="silver-sub">
+                            <a href="silver.html" class="sub-dropdown-link2">Ancklet</a>
+                            <a href="silver.html?slider=silver-slider-1" class="sub-dropdown-link2">Challa</a>
+                            <a href="silver.html?slider=silver-slider-2" class="sub-dropdown-link2">Mekhala</a>
+                            <a href="silver.html?slider=silver-slider-3" class="sub-dropdown-link2">Women Bracelet</a>
+                            <a href="silver.html?slider=silver-slider-4" class="sub-dropdown-link2">Men Bracelet</a>
+                            <a href="silver.html?slider=silver-slider-5" class="sub-dropdown-link2">Lord Murti</a>
+                            <a href="silver.html?slider=silver-slider-6" class="sub-dropdown-link2">Baby Bangels</a>
+                            <a href="silver.html?slider=silver-slider-7" class="sub-dropdown-link2">Baby Foot Kada</a>
+                            <a href="silver.html?slider=silver-slider-8" class="sub-dropdown-link2">Toe Ring</a>
+                            <a href="silver.html?slider=silver-slider-9" class="sub-dropdown-link2">Vessels</a>
+                        </div> -->
+                        
+                       
+                    </div>
+                      
+                </li>
+                <!-- <li><a href="products.html">Product's</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-nav">
+                <a href="#" class="nav-search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="nav-user" id="adminAccess">
+  <i class="fa fa-user"></i>
+</a>
+                <a href="#" class="nav-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </a>
+            </div>
+            
+        </nav>
+    </header>
+    <section id="main-banner">
+        <div class="main-banner-box">
+            <img src="image/poster1.png" alt="banner">
+        </div>
+    </section>
+    <section class="what-we-provide">
+        <div class="w-info-box">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-plane"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Free Shipping</strong>
+                <p>Get Free Shipping Worldwide!</p>
+            </div>
+        </div>
+        <div class="w-info-box">
+            <div class="w-info-icon">
+                <i class="fa-regular fa-comments"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Support 24/7</strong>
+                <p>Get Help Anytime</p>
+            </div>
+        </div>
+        <div class="w-info-box">
+            <div class="w-info-icon">
+                <i class="fa-regular fa-credit-card"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>100% Payment Secure</strong>
+                <p>Your Payment is Safe with Us</p>
+            </div>
+        </div>
+    </section>
+    <!-- product========================================================= -->
+    <section id="new_product">
+        <div class="new-product-heading">
+            <h2>Our Products</h2>
+            <p>Add our product to weekly lineup</p>
+        </div>
+        <div class="new-product-container">
+
+            <div class="swiper mySwiperNewProduct">
+                <div class="swiper-wrapper" id="products"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- Category################################################ -->
+     <section id="Category">
+        <div class="category-container">
+            <a href="gold.html" class="category-box">
+                <img src="image/gold.webp" alt="category">
+                <strong>Gold</strong>
+            </a>
+            <a href="silver.html" class="category-box">
+                <img src="image/silver.jpg" alt="category">
+                <strong>Silver</strong>
+            </a>
+            <a href="platinum.html" class="category-box">
+                <img src="image/platinum.webp" alt="category">
+                <strong>Platinum</strong>
+            </a>
+        </div>
+     </section>
+     <!-- contact form======================================== -->
+     <section class="contact">
+        <div class="new-product-heading">
+            <h2>Contact Us</h2>
+            <p>Share Your Query/Suggestion</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <a href="https://maps.app.goo.gl/uxqFPtPRSwCdFN5B6">Shahuwadi</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>9527393518</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>vijaygodase@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>                      
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message..</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer======================================= -->
+     <footer>
+        <div class="footer-container">
+            <div class="footer-company-box">
+                <a href="#" class="logo">
+                    <img src="2-removebg-preview.png" alt="logo"/>
+                </a>
+                <p>Elegance Redefined, One Piece at a Time</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ambika_jewellers96?igsh=d2tlenZzOWszMWd2 "><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gold.html">Category</a></li>
+                    <li><a href="products.html">Product's</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="https://www.goodreturns.in/gold-rates/kolhapur.html">Gold Rate</a></li>
+                    <li><a href="https://www.goodreturns.in/silver-rates/kolhapur.html">Silver Rate</a></li>
+                    <li><a href="https://www.goodreturns.in/platinum-rate-in-kolhapur.html">Platinum Rate</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Product's</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-owner">Made by Sanika</span>
+            <span class="copyright">&#169;Copyright 2025</span>
+        </div>
+     </footer>
+    <script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+import { getFirestore, doc, setDoc, getDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+
+// 🔥 Firebase config
+const firebaseConfig = {
+  apiKey: "AIzaSyDPd0rVDGNQynXRkM1N5vvnzNdFlQizJY0",
+  authDomain: "ambika-jewellers-23b35.firebaseapp.com",
+  projectId: "ambika-jewellers-23b35"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const btn = document.getElementById("adminAccess");
+
+  if (!btn) return;
+
+  btn.addEventListener("click", async () => {
+
+    const password = prompt("Enter Admin Password");
+
+    if (password !== "ambika96") {
+      alert("❌ Wrong password");
+      return;
+    }
+
+    // 🔥 choose metal
+    const type = prompt("Enter type: gold / silver / platinum");
+
+    if (!type) return;
+
+    const rate = prompt(`Enter ${type} rate (per gram)`);
+
+    if (!rate) return;
+
+    try {
+
+      // 🔥 get existing rates
+      const ref = doc(db, "rates", "current");
+      const snap = await getDoc(ref);
+
+      let data = snap.exists() ? snap.data() : {};
+
+      // 🔥 update only selected type
+      data[type.toLowerCase()] = Number(rate);
+
+      await setDoc(ref, data);
+
+      alert(`✅ ${type.toUpperCase()} rate updated!`);
+
+      location.reload();
+
+    } catch (error) {
+      console.error(error);
+      alert("❌ Error saving rate");
+    }
+
+  });
+
+});
+</script>
+</body>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiperNewProduct", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+    },
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      740: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1000: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1224: {
+        slidesPerView: 5,
+        spaceBetween: 50,
+      },
+    },
+  });
+
+//   fix header==============================
+  window.addEventListener('scroll',function(){
+    var header=document.getElementById('header');
+    if(window.scrollY > 0){
+        header.classList.add('header-fix');
+    }
+    else{
+        header.classList.remove('header-fix');
+    }
+  })
+</script>
+<script>
+    function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.closest('.dropbtn') && !event.target.closest('.dropdown-content')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+//sub dropdown======================================================
+const dropdownLinks = document.querySelectorAll('.dropdown-link');
+
+// dropdownLinks.forEach((link) => {
+//   link.addEventListener('mouseover', () => {
+//     const subDropdown = link.nextElementSibling;
+//     subDropdown.style.display = 'block';
+//   });
+
+//   link.addEventListener('mouseout', () => {
+//     const subDropdown = link.nextElementSibling;
+//     setTimeout(() => {
+//       subDropdown.style.display = 'none';
+//     }, 10000); // adjust the delay as needed
+//   });
+// });
+//link the sub-dropdown=========================
+subDropdownLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    // e.preventDefault();
+    const sliderId = link.getAttribute('data-slider');
+    // Open the corresponding slider using JavaScript
+    openSlider(sliderId);
+  });
+});
+
+
+// function openSlider(sliderId) {
+  
+//   console.log(`Opening slider ${sliderId}`);
+  
+// }
+
+//to link gold.html
+const subDropdownLinks = document.querySelectorAll('.sub-dropdown-link');
+
+subDropdownLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const sliderId = link.getAttribute('data-slider');
+    localStorage.setItem('activeSlider', sliderId);
+    window.location.href = 'gold.html';
+  });
+});
+
+//to link silver.html
+const subDropdownLinks2 = document.querySelectorAll('.sub-dropdown-link');
+
+subDropdownLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const sliderId = link.getAttribute('data-slider');
+    localStorage.setItem('activeSlider', sliderId);
+    window.location.href = 'silver.html';
+  });
+});
+
+//to link platinum.html
+const subDropdownLinks3 = document.querySelectorAll('.sub-dropdown-link');
+
+subDropdownLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const sliderId = link.getAttribute('data-slider');
+    localStorage.setItem('activeSlider', sliderId);
+    window.location.href = 'platinum.html';
+  });
+});
+
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.querySelector(".menu");
+
+  if(toggle){
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    });
+  }
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  const links = document.querySelectorAll(".dropdown-link");
+
+  links.forEach(link => {
+
+    let clickedOnce = false;
+
+    link.addEventListener("click", function(e){
+
+      const sub = this.nextElementSibling;
+
+      // if submenu exists
+      if(sub){
+
+        if(!clickedOnce){
+          e.preventDefault(); // first click → stop navigation
+          sub.style.display = "block";
+          clickedOnce = true;
+        } else {
+          // second click → go to page
+          window.location.href = this.getAttribute("href");
+        }
+
+      }
+
+    });
+
+  });
+
+});
+</script>
+</html>
