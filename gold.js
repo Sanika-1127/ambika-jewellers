@@ -63,7 +63,7 @@ async function loadProducts() {
                   <span>New</span>
 
                   <button class="new-product-cart-btn">
-                    <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                    <i class="fa-solid fa-cart-shopping"></i> View Product 
                   </button>
                 </a>
 
