@@ -65,7 +65,7 @@ async function loadProduct() {
   `;
 
     // 🔥 WHATSAPP CODE (SEPARATE)
-    const phoneNumber = "919307149055";
+    const phoneNumber = "919527393518";
 
     const message = `
 Hello, I want to enquire about *${p.name}*
