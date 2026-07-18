@@ -47,36 +47,28 @@ async function loadProduct() {
     document.getElementById("weight").innerText =
       "Weight: " + weight + " gm";
 
-    document.getElementById("making").innerText =
-      "Making Charges: ₹ " + making + " / gm";
+    // document.getElementById("making").innerText =
+    //   "Making Charges: ₹ " + making + " / gm";
 
     document.getElementById("price").innerHTML = `
     ${p.category.toUpperCase()} Rate: ₹ ${rate} / gm <br>
 
-    Metal Price:
-    ${weight} × ${rate}
-    = ₹ ${metalPrice.toLocaleString()} <br>
-
-    Making Charges:
-    ${weight} × ${making}
-    = ₹ ${makingCharges.toLocaleString()} <br><br>
-
-    <strong>Total Price: ₹ ${total.toLocaleString()}</strong>
+   
   `;
 
     // 🔥 WHATSAPP CODE (SEPARATE)
     const phoneNumber = "919527393518";
 
-    const message = `
+    const productUrl = `https://ambika-jewellers96.netlify.app/product.html?id=${id}`;
+
+const message = `
 Hello, I want to enquire about *${p.name}*
 
 📦 Weight: ${weight} gm
 💰 ${p.category.toUpperCase()} Rate: ₹ ${rate}/gm
-🛠 Making Charges: ₹ ${makingCharges.toLocaleString()}
-💎 Total Price: ₹ ${total.toLocaleString()}
 
-🖼 Product Image:
-${p.image}
+🔗 Product:
+${productUrl}
 `;
 
     document.getElementById("whatsappBtn").addEventListener("click", () => {
@@ -90,3 +82,16 @@ ${p.image}
 }
 
 document.addEventListener("DOMContentLoaded", loadProduct);
+
+ // Metal Price:
+    // ${weight} × ${rate}
+    // = ₹ ${metalPrice.toLocaleString()} <br>
+
+    // Making Charges:
+    // ${weight} × ${making}
+    // = ₹ ${makingCharges.toLocaleString()} <br><br>
+
+    // <strong>Total Price: ₹ ${total.toLocaleString()}</strong>
+
+// 🛠 Making Charges: ₹ ${makingCharges.toLocaleString()}
+// 💎 Total Price: ₹ ${total.toLocaleString()}

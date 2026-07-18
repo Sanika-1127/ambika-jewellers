@@ -73,7 +73,7 @@ async function loadProducts() {
                   <span>${weight} gm</span>
 
                   <!-- 🔥 PRICE -->
-                  <strong>₹ ${price.toLocaleString()}</strong>
+                  
                 </div>
 
               </div>
